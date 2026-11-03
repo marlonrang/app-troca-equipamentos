@@ -38,7 +38,7 @@ jobs:
           pip install flet openpyxl
 
       - name: Compilar APK
-        run: flet build apk --verbose
+        run: flet build apk
 
       - name: Disponibilizar APK para Download
         uses: actions/upload-artifact@v4
